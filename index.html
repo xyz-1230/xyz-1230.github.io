@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>凌鑫巧 -- 个人主页</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            background-color: #2a5a3c;
+            color: white;
+            text-align: center;
+            padding: 4rem 0;
+            background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
+        }
+
+        nav {
+            background-color: #3d7a5a;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1rem 2rem;
+            transition: all 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #4d8a6a;
+        }
+
+        section {
+            padding: 3rem 10%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .about {
+            background-color: #ffffff;
+        }
+
+        .research {
+            background-color: #f1f8f5;
+        }
+
+        .publications {
+            background-color: #ffffff;
+        }
+
+        .project {
+            margin: 2rem 0;
+            padding: 1.5rem;
+            border-left: 4px solid #4CAF50;
+            background-color: #f8fff9;
+        }
+
+        footer {
+            background-color: #2a5a3c;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .school-logo {
+            width: 120px;
+            margin: 1rem auto;
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="hzaulogo.png" alt="华中农业大学" class="school-logo">
+        <h1>凌鑫巧</h1>
+        <p>资源利用与植物保护 | 硕士研究生</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">个人简介</a></li>
+            <li><a href="#research">研究方向</a></li>
+            <li><a href="#publications">所获荣誉</a></li>
+            <li><a href="#contact">联系方式</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="about">
+        <h2>个人简介</h2>
+        <p>华中农业大学资源利用与植物保护专业硕士研究生，主要研究方向为农业资源高效利用与植物健康保护。本科毕业于浙江农林大学农业资源与环境专业，具有扎实的农业生态学基础和实验操作技能。</p>
+    </section>
+
+    <section id="research" class="research">
+        <h2>研究方向</h2>
+        <div class="project">
+            <h3>农业废弃物资源化利用</h3>
+            <p>• 研究秸秆还田对土壤改良的影响<br>
+               • 开发农业废弃物转化生物炭技术<br>
+               • 探索有机肥替代化肥的可行性方案</p>
+        </div>
+        <div class="project">
+            <h3>植物病虫害综合防治</h3>
+            <p>• 生物防治技术应用研究<br>
+               • 农药减量增效技术开发<br>
+               • 生态调控对作物抗病性的影响</p>
+        </div>
+    </section>
+
+    <section id="publications" class="publications">
+        <h2>所获荣誉</h2>
+        <div class="project">
+            <h3>本科阶段</h3>
+            <p>• 校级三等奖学金<br>
+               • 优秀团员荣誉称号</p>
+        </div>
+        <div class="project">
+            <h3>研究生阶段</h3>
+            <p>• 校级丙等奖学金<br>
+               • 摄影大赛三等奖</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>联系方式</h2>
+        <p>📧 邮箱：lingxinqiao@webmail.hzau.edu.cn</p>
+        <p>🏫 地址：湖北省武汉市洪山区狮子山街1号华中农业大学</p>
+        <p>📚 ResearchGate：www.researchgate.net/profile/Xinqiao_Ling</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 凌鑫巧 - 华中农业大学资源与环境学院</p>
+    </footer>
+</body>
+</html>
